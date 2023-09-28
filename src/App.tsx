@@ -6,11 +6,6 @@ export default function App() {
 
     const [character, setCharacter] = useState<RickAndMortyCharacter[]>(characters.results)
 
-    // function showCharacter() {
-    //     characters.filter(item => item.name)
-    //     setCharacter(character)
-    // }
-
   return (
     <>
         <CharactersOutput allCharacters={character}/>
